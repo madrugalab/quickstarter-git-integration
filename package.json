@@ -1,0 +1,26 @@
+{
+  "name": "quickstarter-git-integration",
+  "version": "1.0.0",
+  "description": "Projeto de quickstart para trabalhar com commits enriquecidos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "conventional-changelog-lint --from=HEAD~1",
+    "commitmsg": "validate-commit-msg",
+    "release": "bash release.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madrugalab/quickstarter-git-integration.git"
+  },
+  "keywords": [],
+  "author": "Samuel [salmoel] Verneck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madrugalab/quickstarter-git-integration/issues"
+  },
+  "homepage": "https://github.com/madrugalab/quickstarter-git-integration#readme",
+  "devDependencies": {
+    "conventional-changelog-lint": "^2.1.1",
+    "husky": "^7.0.4"
+  }
+}
